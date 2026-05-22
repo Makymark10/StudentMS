@@ -7,6 +7,9 @@
     Aice Ruetas
     Lawrence Collado
 
+# Demo
+    https://studentms-nine.vercel.app/students
+
 ## 🌟 Key Features Implemented
 
 *   **Premium Glassmorphic UI Dashboard**: A highly polished, modern dark-mode user interface designed using curated slate/indigo gradients and backdrop-blur glass panels.
