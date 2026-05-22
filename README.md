@@ -8,7 +8,7 @@
     Lawrence Collado
 
 # Demo
-    https://studentms-nine.vercel.app/students
+[Live demo](https://studentms-nine.vercel.app/students)
 
 ## 🌟 Key Features Implemented
 
