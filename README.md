@@ -1,5 +1,12 @@
 # 🎓 Simple Student Management System (StudentMS)
 
+# Proponents
+    Mark Joero Flores
+    Kevin Cancino
+    Mary Ann Parana
+    Aice Ruetas
+    Lawrence Collado
+
 ### 📌 Midterm Project Assignment
 
 A web-based **Student Management System** developed using the **Laravel** framework and **Tailwind CSS**. This application implements the core principles of back-end and front-end development, demonstrating **MVC Architecture**, **Database Migrations**, **Eloquent ORM**, **Resource Routing**, **Form Validation**, and **Responsive UI UX Design**.
@@ -18,6 +25,51 @@ A web-based **Student Management System** developed using the **Laravel** framew
 *   **Live Table Search Filtering**: Super-fast real-time search filtering by Name or Email address utilizing lightweight, highly optimized client-side JavaScript.
 *   **Real-time Statistics Grid**: Displays active counts for *Total Registered Students*, *Average Student Age*, and *Age Distribution limits (Min/Max)*.
 *   **Auto-dismissing Flash Alerts**: Delivers beautiful animated alert indicators upon successful creation, update, or deletion of a student record.
+
+---
+
+## Design Blueprint
+
+The interface is a glassmorphic admin dashboard built for fast scanning, safe actions, and a premium feel. It uses layered panels, soft glows, and high-contrast typography to keep data readable while maintaining a modern aesthetic.
+
+### Layout Map (Dashboard)
+
+```
++------------------------------------------------------------------+
+| StudentMS                          [Search: Name/Email] [Add New] |
++------------------------------------------------------------------+
+| [Total Students]   [Average Age]   [Min Age]   [Max Age]          |
++------------------------------------------------------------------+
+| Table: Name | Email | Age | Actions (Edit / Delete)              |
+| ...                                                              |
++------------------------------------------------------------------+
+| Flash Alerts (top-right, auto-dismiss)                           |
++------------------------------------------------------------------+
+```
+
+### Key UI Elements
+
+*   **Header Row**: App title on the left, search input centered, primary CTA on the right.
+*   **Stats Grid**: Three or four compact glass panels with large numbers and small labels.
+*   **Data Table**: High-contrast rows with subtle hover glow; actions grouped per row.
+*   **Delete Modal**: Centered frosted panel with a warning accent and clear confirm/cancel buttons.
+*   **Flash Alerts**: Stacked toasts in the top-right, slide-in with short lifetime.
+
+### Visual Tokens
+
+*   **Background Gradient**: #0b1022 -> #0f172a -> #1e1b4b
+*   **Panel Surface**: rgba(15, 23, 42, 0.6) with 12px backdrop blur
+*   **Accent Colors**: Indigo #6366f1 for primary, Cyan #22d3ee for highlights
+*   **Border**: 1px rgba(148, 163, 184, 0.2)
+*   **Shadow**: 0 20px 40px -20px rgba(0, 0, 0, 0.6)
+*   **Typography**: Headings in Outfit, body in Manrope
+*   **Radius / Spacing**: 12px corner radius, 24px layout grid
+
+### Responsive Behavior
+
+*   Collapse header into stacked rows under 768px.
+*   Stack stats cards into a single column on small screens.
+*   Switch table to a card list layout for narrow widths.
 
 ---
 
