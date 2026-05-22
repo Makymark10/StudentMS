@@ -139,10 +139,10 @@ Key implementation files created/modified for this midterm project:
 *   **Database Seeder**: `database/seeders/DatabaseSeeder.php` (seeds initial mock students for visual testing)
 
 ---
-
+<!-- 
 ## 🎓 Evaluation Criteria Met
 
 *   **MVC Architecture (30%)**: Structured with complete separation between the database schema (`Student` model), rendering logic (`students.index`, `create`, `edit` Views), and execution actions (`StudentController`).
 *   **Data Validation (15%)**: Strict field checks prevent duplicate email entries and non-integer/invalid age values, offering clean inline warnings.
 *   **User Experience & UI (15%)**: Beautiful animations, clear indicators, automated popup dismissals, real-time query searching, and custom error displays guarantee a stunning first impression.
-*   **Safety Actions (40%)**: Safe deletion processes verified via dynamic overlay confirmation panels before invoking standard SQL `DELETE` calls.
+*   **Safety Actions (40%)**: Safe deletion processes verified via dynamic overlay confirmation panels before invoking standard SQL `DELETE` calls. -->
