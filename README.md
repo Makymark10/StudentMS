@@ -7,12 +7,6 @@
     Aice Ruetas
     Lawrence Collado
 
-### 📌 Midterm Project Assignment
-
-A web-based **Student Management System** developed using the **Laravel** framework and **Tailwind CSS**. This application implements the core principles of back-end and front-end development, demonstrating **MVC Architecture**, **Database Migrations**, **Eloquent ORM**, **Resource Routing**, **Form Validation**, and **Responsive UI UX Design**.
-
----
-
 ## 🌟 Key Features Implemented
 
 *   **Premium Glassmorphic UI Dashboard**: A highly polished, modern dark-mode user interface designed using curated slate/indigo gradients and backdrop-blur glass panels.
