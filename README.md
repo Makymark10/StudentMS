@@ -51,7 +51,7 @@ StudentMS is a single-role admin interface for managing student records. It foll
 *   **Styling**: Tailwind CSS v4.0 (Modern utility-first architecture)
 *   **Database**: MySQL / MariaDB (via Eloquent ORM & Migrations)
 *   **Build Tool**: Vite 6+
-
+<!-- 
 ---
 
 ## 🚀 Setup & Installation Instructions
@@ -138,7 +138,7 @@ Key implementation files created/modified for this midterm project:
     *   `resources/views/students/edit.blade.php` (form for updating existing student records)
 *   **Database Seeder**: `database/seeders/DatabaseSeeder.php` (seeds initial mock students for visual testing)
 
----
+--- -->
 <!-- 
 ## 🎓 Evaluation Criteria Met
 
